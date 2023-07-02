@@ -91,6 +91,7 @@ main {
 .img-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .img-container img {
@@ -159,4 +160,31 @@ footer {
 
 span {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 450px) {
+    .logo-caption {
+        display: none;
+    }
+    .nav li {
+        margin: 0 0;
+        margin-right: 1rem;
+    }
+    .nav a {
+        font-size: 0.75rem;
+    }
+    .img-container img {
+        width: 95%;
+    }
+    .dave {
+        width: 95%
+    }
+    .suse {
+        width:95%
+    }
+    .what,
+    .team,
+    .contact {
+        padding-top: 5px;
+    }
 }
