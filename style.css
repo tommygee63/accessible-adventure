@@ -162,6 +162,38 @@ span {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 1200px) {
+    .nav {
+        margin-right: 1rem;
+    }
+    .nav li {
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .logo-caption {
+        display: none;
+    }
+    .nav a {
+       font-size: 0.9rem; 
+    }
+    .img-container img {
+        width: 95%;
+    }
+    .dave {
+        width: 95%
+    }
+    .suse {
+        width:95%
+    }
+    .what,
+    .team,
+    .contact {
+        padding-top: 5px;
+    }
+}
+
 @media only screen and (max-width: 450px) {
     .logo-caption {
         display: none;
