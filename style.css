@@ -97,6 +97,7 @@ main {
 .img-container img {
     width: 30%;
     height: auto;
+    object-fit: cover;
 }
 
 .team {
@@ -204,6 +205,10 @@ span {
     }
     .nav a {
         font-size: 0.75rem;
+    }
+
+    .img-container {
+        row-gap: 5px;
     }
     .img-container img {
         width: 95%;
